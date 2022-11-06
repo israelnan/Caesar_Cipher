@@ -115,7 +115,7 @@ bool k_validation(const char k_string[])
     }
     for (int i = 1; k_string[i] != '\0'; i++)
     {
-        if (k_string[0] < '0' || k_string[0] > '9')
+        if (k_string[i] < '0' || k_string[i] > '9')
         {
             fprintf(stderr, INVALID_K_OUTPUT);
             return false;
