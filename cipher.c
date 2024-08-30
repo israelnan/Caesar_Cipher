@@ -1,6 +1,7 @@
 #include "cipher.h"
 #include <string.h>
 
+
 #define ALPHABET_LEN 26
 
 
